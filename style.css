@@ -1,0 +1,42 @@
+/* Global rule for the entire page */
+
+html {
+  background-color: gold;
+  font-size: 10px;
+  font-family: placeholder: 'Open-Sans';
+}
+/*
+When you set two values on a property like margin or padding,
+the first value affects the element's top and bottom side
+(make it 0 in this case), and the second value the left
+and right side (here, auto is a special value that divides
+the available horizontal space evenly between left and right)
+
+*/
+body {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  background-color: #FF9500;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
